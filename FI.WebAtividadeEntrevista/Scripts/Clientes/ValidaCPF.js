@@ -7,7 +7,6 @@
 
 
     if (strCPF == "00000000000" ||
-        strCPF == "00000000000" ||
         strCPF == "11111111111" ||
         strCPF == "22222222222" ||
         strCPF == "33333333333" ||
@@ -32,8 +31,6 @@
     if (Resto != parseInt(strCPF.substring(10, 11))) return false;
     return true;
 }
-//var strCPF = "12345678909";
-//alert(TestaCPF(strCPF));
 
 function alertaCPF(strCPF) {
     if (!TestaCPF(strCPF)) {
